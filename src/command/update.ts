@@ -3,7 +3,7 @@ import chalk from 'chalk';
 import ora from 'ora';
 
 const spinner = ora({
-    text: 'chopin-cli 正在更新....',
+    text: 'chopinnn-cli 正在更新....',
     spinner: {
         interval: 300,
         frames: ['⠋', '⠙', '⠹', '⠸', '⠼', '⠴', '⠦', '⠧', '⠇', '⠏'].map((item) => chalk.blue(item)),
@@ -11,7 +11,7 @@ const spinner = ora({
 });
 export function update() {
     spinner.start();
-    process.exec('npm install chopin-cli@latest -g', (error) => {
+    process.exec('npm install chopinnn-cli@latest -g', (error) => {
         spinner.stop();
         if (!error) {
             console.log(chalk.green('更新成功'));

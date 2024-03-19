@@ -2,12 +2,12 @@ import {Command} from 'commander';
 import {version} from '../package.json';
 import {create} from './command/create';
 import { update } from './command/update';
-const program = new Command('chopin');
+const program = new Command('chopinnn');
 program.version(version, '-v --version');
 
 program
     .command('update')
-    .description('更新脚手架 chopin-cli')
+    .description('更新脚手架 chopinnn-cli')
     .action(async () => {
         await update();
     });
