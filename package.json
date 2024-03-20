@@ -8,6 +8,8 @@
         "build": "rollup -c rollup.config.js --bundleConfigAsCjs"
     },
     "keywords": [
+        "chopin",
+        "脚手架",
         "Vite",
         "Vue3",
         "TypeScript",

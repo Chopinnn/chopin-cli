@@ -15,6 +15,33 @@ export interface TemplateInfo {
 
 export const templates: Map<string, TemplateInfo> = new Map([
     [
+        'Vue3模板chopinnn-admin',
+        {
+            name: 'Vue3模板chopinnn-admin',
+            downloadUrl: 'https://github.com/Chopinnn/chopinnn-admin.git',
+            description: 'Vue3模板chopinnn-admin',
+            branch: 'master',
+        },
+    ],
+    [
+        'vue-element-admin',
+        {
+            name: 'vue-element-admin',
+            downloadUrl: 'https://github.com/PanJiaChen/vue-element-admin.git',
+            description: 'vue-element-admin',
+            branch: 'master',
+        },
+    ],
+    [
+        'ant-design-pro',
+        {
+            name: 'ant-design-pro',
+            downloadUrl: 'https://github.com/ant-design/ant-design-pro.git',
+            description: 'ant-design-pro',
+            branch: 'master',
+        },
+    ],
+    [
         '五子棋小游戏',
         {
             name: '五子棋小游戏',
