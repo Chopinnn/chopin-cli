@@ -24,6 +24,15 @@ export const templates: Map<string, TemplateInfo> = new Map([
         },
     ],
     [
+        '无界模板chopinnn-monorepo-wujie',
+        {
+            name: '无界模板chopinnn-monorepo-wujie',
+            downloadUrl: 'https://github.com/Chopinnn/chopinnn-monorepo-wujie',
+            description: '无界模板chopinnn-monorepo-wujie',
+            branch: 'master',
+        },
+    ],
+    [
         'vue-element-admin',
         {
             name: 'vue-element-admin',
@@ -71,7 +80,7 @@ export function isOverwrite(fileName: string) {
     });
 }
 
-export const getNpmInfo = async (npmName: string) => {
+export const getNpmInfo = async (name: string) => {
     const npmUrl = `https://registry.npmjs.org/${name}`;
     let res = {};
     try {
